@@ -43,10 +43,10 @@ int main()
             cout << "ten nguoi thu " << i << " : ";
             cin >> name;
             cout << endl;
-            cout << "can nang nguoi " << i << " : ";
+            cout << "can nang nguoi thu " << i << " : ";
             cin >> weight;
             cout << endl
-                 << "chieu cao nguoi " << i << " : ";
+                 << "chieu cao nguoi thu " << i << " : ";
             cin >> height;
             cout << endl;
             people[i - 1] = human(name, weight, height);
